@@ -2,8 +2,9 @@
 name = "drf"
 version = "0.1.0"
 description = ""
-authors = ["FuckingSherlock"]
+authors = ["Evgen"]
 readme = "README.md"
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -17,10 +18,11 @@ mixer = "^7.2.2"
 drf-yasg = "^1.21.4"
 graphene-django = "^3.0.0"
 
-
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^1.7.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+psycopg2 = "2.9.6"

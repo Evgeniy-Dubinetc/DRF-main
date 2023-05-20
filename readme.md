@@ -9,7 +9,7 @@
   - isort, black, autoflake
   - Django < 3.3
   - Celery[Redis]
-- VSCode
+- PyCharm
 - SQLite 3
 
 ## Лицензия
